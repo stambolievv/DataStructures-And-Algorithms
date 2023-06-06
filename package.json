@@ -1,0 +1,43 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "Implementations of various data structures and algorithms in JavaScript.",
+  "main": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write ./src/**",
+    "test": "vitest run"
+  },
+  "author": "Deyan 'stambolievv' Stamboliev",
+  "license": "Apache-2.0",
+  "keywords": [
+    "javascript",
+    "algorithms",
+    "data",
+    "structures",
+    "stack",
+    "queue",
+    "heap",
+    "cache",
+    "linkedList",
+    "tree",
+    "vector",
+    "sorts",
+    "search"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stambolievv/DataStructures-And-Algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stambolievv/DataStructures-And-Algorithms/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^40.0.2",
+    "prettier": "^2.8.4",
+    "vitest": "^0.30.1"
+  }
+}
